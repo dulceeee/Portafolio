@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: auto;
+    height: 60px;
+    background-color: #037608 ;
+}
+
+section{
+    width: 1000px;
+    margin: auto;
+}
+
+h2{
+   color:  #032704;
+    font-size: 25px;
+    font-family:fantasy;
+    text-align: right;
+    margin: 30px 20px; 
+}
+
+h1{
+    color: #12BD19 ;
+    font-size: 50px;
+    font-family:fantasy;
+    text-align: center;
+    margin: 30px 0px;
+}   
+
+.xd{
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: justify;
+     margin: 30px 0px;
+}
+
+.re{
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: justify;
+     margin: 30px 0px;
+}
+
+table{
+    color: white;
+    font-size: 25px;
+    font-family:fantasy;
+    text-align: center;
+     margin: 30px 0px;
+    border: 0;
+}
+
+.mm{
+    background-color:#12BD19;
+}
+
+.gh{
+     color: black;
+    font-size: 17px;
+    font-family:sans-serif;
+    text-align: justify;
+     margin: 30px 0px;
+    background-color: #F3F8F0 ;
+}
+
+.ty{
+    color: black;
+    font-size: 17px;
+    font-family:sans-serif;
+    text-align: justify;
+     margin: 30px 0px;
+    background-color: #F3F8F0;
+}
+
+
+.yy{
+    color: black;
+    font-size: 17px;
+    font-family:sans-serif;
+    text-align: justify;
+     margin: 30px 0px;
+    background-color:#F3F8F0 ;
+}
+
+.gg{
+    color: black;
+    font-size: 17px;
+    font-family:sans-serif;
+    text-align: justify;
+     margin: 30px 0px;
+     background-color: #F3F8F0;
+}
+
+.s3{
+    margin: auto 330px;
+    box-sizing: border-box;
+}
+
+.hh{
+    color: darkolivegreen;
+    font-size: 30px;
+    font-family:fantasy;
+    text-align: center;
+     margin: 30px 0px;
+}
+
+.mn{
+    color: #12BD19 ;
+    font-size: 30px;
+    font-family:fantasy;
+    text-align: left;
+    margin: 30px 0px;
+}   
+
+.po{
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif;
+    text-align: left;
+    margin: 30px 0px;
+}
+
+.yu{
+     color: #032704 ;
+    font-size: 27px;
+    font-family:fantasy;
+    text-align: left;
+     margin: 30px 0px;
+    padding: 0px 30px;
+}
+
+.no{
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif;
+    text-align: left;
+     margin: 30px 0px;
+    padding: 0px 70px;
+}
+
+b{
+    color: #12BD19;
+}
+
+.dos{
+    color: #032704;
+}
+
+.jo{
+    color: #032704 ;
+    font-size: 27px;
+    font-family:fantasy;
+    text-align: left;
+     margin: 30px 0px;
+    padding: 0px 30px;
+}
+
+.to{
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif;
+    text-align: left;
+    margin: 30px 0px;
+}
+.tt{
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif;
+    text-align: left;
+     margin: 30px 0px;
+    padding: 0px 70px;
+}
+
+.uu{
+   color: darkolivegreen;
+    font-size: 25px;
+    font-family:inherit;
+    text-align: center;
+     margin: 30px 0px;
+}
+
+.pp{
+    color: darkslateblue;
+    font-size: 20px;
+    font-family:fantasy;
+    text-align: left;
+     margin: 30px 0px;
+}
+
+footer{
+    width: auto;
+    height: 60px;
+    background-color: #037608 ;
+}
+
+
