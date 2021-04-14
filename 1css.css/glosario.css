@@ -4,9 +4,9 @@ section{
 }
 
 :root{
-    --color1: #032704;
-    --color2: #12BD19;
-    --color3: #576D32;
+    --color1: #394007;
+    --color2: #88898C;
+    --color3: #7A8C3A;
     --color4: #000000;
 }
 
@@ -55,7 +55,7 @@ table{
 }
 
 .mm{
-    background-color:var(--color2);
+    background-color:var(--color3);
     font-family: fantasy;
 }
 
@@ -98,7 +98,7 @@ table{
 }
 
 .hh{
-    color: var(--color3);
+    color: var(--color2);
     font-size: 30px;
     font-family:fantasy;
     text-align: center;
@@ -106,7 +106,7 @@ table{
 }
 
 .mn{
-    color: var(--color2);
+    color: var(--color3);
     font-size: 30px;
     font-family:fantasy;
     text-align: left;
@@ -179,8 +179,8 @@ b{
 footer{
     width: auto;
     height: 60px;
-    background-color: #36f031;
-    background-image: linear-gradient(156deg, #36f031 0%, #126419 100%);
+    background-color: #6b6b6d;
+    background-image: linear-gradient(62deg, #6b6b6d 0%, #c6bcc7 50%, #f0f0f0 100%);
 }
 
 
