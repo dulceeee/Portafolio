@@ -50,7 +50,16 @@ table{
     font-size: 25px;
     font-family:fantasy;
     text-align: center;
-     margin: 30px 0px;
+    margin: 30px 0px;
+    border: 0;
+}
+
+.tabledos{
+    color: white;
+    font-size: 25px;
+    font-family:fantasy;
+    text-align: center;
+    margin: 30px 48px;
     border: 0;
 }
 
@@ -59,19 +68,30 @@ table{
     font-family: fantasy;
 }
 
+.ph{
+     color: #fff;
+    font-size: 17px;
+    text-align: center;
+     margin: 30px 0px;
+    padding: 10px;
+    background-color: #7A8C3A;
+}
+
 .gh{
      color: var(--color4);
     font-size: 17px;
-    text-align: justify;
+    text-align: center;
      margin: 30px 0px;
+    padding: 10px;
     background-color: #F3F8F0 ;
 }
 
 .ty{
     color: var(--color4);
     font-size: 17px;
-    text-align: justify;
+    text-align: center;
      margin: 30px 0px;
+    padding: 10px;
     background-color: #F3F8F0;
 }
 
@@ -79,16 +99,18 @@ table{
 .yy{
     color: var(--color4);
     font-size: 17px;
-    text-align: justify;
+    text-align: center;
      margin: 30px 0px;
+    padding: 10px;
     background-color:#F3F8F0 ;
 }
 
 .gg{
     color: var(--color4);
     font-size: 17px;
-    text-align: justify;
+    text-align: center;
      margin: 30px 0px;
+    padding: 10px;
      background-color: #F3F8F0;
 }
 
