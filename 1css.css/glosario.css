@@ -59,7 +59,34 @@ table{
     font-size: 25px;
     font-family:fantasy;
     text-align: center;
-    margin: 30px 48px;
+    margin: 30px 79px;
+    border: 0;
+}
+
+.tabletres{
+    color: white;
+    font-size: 25px;
+    font-family:fantasy;
+    text-align: center;
+    margin: 30px 150px;
+    border: 0;
+}
+
+.tablecuatro{
+    color: white;
+    font-size: 25px;
+    font-family:fantasy;
+    text-align: center;
+    margin: 30px 0px;
+    border: 0;
+}
+
+.tablecinco{
+    color: white;
+    font-size: 25px;
+    font-family:fantasy;
+    text-align: center;
+    margin: 30px 220px;
     border: 0;
 }
 
@@ -201,6 +228,7 @@ b{
 footer{
     width: auto;
     height: 60px;
+    margin-top: 60px;
     background-color: #6b6b6d;
     background-image: linear-gradient(62deg, #6b6b6d 0%, #c6bcc7 50%, #f0f0f0 100%);
 }

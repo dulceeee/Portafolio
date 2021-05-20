@@ -14,6 +14,7 @@
    <body>
       
         <header>
+            <div class="hl"></div>
             <h1 class="logo">Dulce Antonio</h1>
             <ul class="nav">
                 <li>  
@@ -90,6 +91,7 @@
                 
                 <ul class="tt">
                     <li> <b>&lt; p - /p &gt;</b> etiqueta que se utiliza para crear párrafos. Estos pueden veriar de tamaño dependiendo de la información que insertemos en el contenedor. </li>
+                    <li> <b>&lt; br &gt;</b> etiqueta que se utiliza para crear espacios entre párrafos. </li>
                 </ul>
                 
             <p class="mn"> <b class="dos">⇝</b> Listado y viñetas </p>
@@ -147,7 +149,7 @@
                    
                    <tr>
                       <td style=" border: inset 0pt" class="ty"> Variable</td>
-                      <td style=" border: inset 0pt" class="ty"> var(--nombrevariable);</td> 
+                      <td style=" border: inset 0pt" class="ty">color: var(--nombrevariable);</td> 
                    </tr>
                    
                    <tr>
@@ -190,7 +192,7 @@
                     <tr>
                        <td rowspan="1" style=" border: inset 0pt" class="ph"> Text-decoration</td>
                        
-                      <td style=" border: inset 0pt" class="ty"> Aplicar o remover decoración del texto</td>
+                      <td style=" border: inset 0pt" class="ty"> Aplicar decoración del texto</td>
                        <td style=" border: inset 0pt" class="ty"> text-decoration: overline; <br>text-decoration: line-through; <br> text-decoration: underline;</td>
                    </tr>
                    
@@ -273,6 +275,365 @@
                         <li> <b> src = "  "</b> atributo que contiene como valor un url. Este url indica la dirección y el nombre de la imagen que se desea insertar. La imagen puede estar en cualquiera de los formatos que reconocen los navegadores (jpg, gif, png, etc.)  </li>
                     </ul>
                     
+             <section>
+                <table class="tablecuatro" CELLSPACING="5" border="1"> 
+                <tr>
+                        <td class="mm" colspan="3"> PROPIEDADES CSS</td>
+                    </tr>
+
+                    <tr>
+                        <td style=" border: inset 0pt" class="gh"> Propiedad </td>
+                        <td style=" border: inset 0pt" class="ty"> Opciones </td>
+                        <td style=" border: inset 0pt" class="yy"> Ejemplo </td>
+                    </tr>
+                   
+                    <tr>
+                        <td rowspan="6" style=" border: inset 0pt" class="ph"> background-color </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Nombre del color</td>
+                        <td style=" border: inset 0pt" class="ty"> background-color: Green;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Código hexadecimal</td>
+                        <td style=" border: inset 0pt" class="ty"> background-color: #008000;</td>
+                   </tr>
+                   
+                   <tr>
+                      <td style=" border: inset 0pt" class="ty"> Código RGB</td>
+                      <td style=" border: inset 0pt" class="ty"> background-color: rgb(47, 79, 79);</td> 
+                   </tr>
+                   
+                   <tr>
+                      <td style=" border: inset 0pt" class="ty"> Código RGBA</td>
+                      <td style=" border: inset 0pt" class="ty"> background-color: rgba(128, 151, 206, 0.5);</td> 
+                   </tr>
+
+                   <tr>
+                      <td style=" border: inset 0pt" class="ty"> Código HSL</td>
+                      <td style=" border: inset 0pt" class="ty"> background-color: hsl(180, 50%, 50%);</td> 
+                   </tr>
+                   
+                   <tr>
+                      <td style=" border: inset 0pt" class="ty"> Variable</td>
+                      <td style=" border: inset 0pt" class="ty"> background-color: var(--nombrevariable);</td> 
+                   </tr>
+                   
+                    <tr>
+                        <td style=" border: inset 0pt" class="ph"> background-image </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Dirección de carpeta donde están todos <br> nuestros archivos para construir el html</td>
+                        <td style=" border: inset 0pt" class="ty"> background-image: url(../img/logo.jpg);</td>
+                   </tr>
+                   
+                   <tr>
+                        <td rowspan="5" style=" border: inset 0pt" class="ph"> background-size </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Escalar la imagen lo más grande posible <br> dentro de su contenedor sin recortar ni <br> estirar la imagen</td>
+                        <td style=" border: inset 0pt" class="ty"> background-size: contain;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Escalar la imagen lo más grande posible <br> para llenar el contenedor, estirando la <br> imagen si es necesario</td>
+                        <td style=" border: inset 0pt" class="ty"> background-size: cover;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Escalar la imagen de fondo en la dirección <br>correspondiente de modo que se mantengan <br> sus proporciones</td>
+                        <td style=" border: inset 0pt" class="ty"> background-size: auto;</td>
+                   </tr>
+                   
+                    <tr>
+                       <td style=" border: inset 0pt" class="ty"> Escalar la imagen en pixeles</td>
+                        <td style=" border: inset 0pt" class="ty"> background-size: 30px;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Escalar la imagen en porcentaje</td>
+                        <td style=" border: inset 0pt" class="ty"> background-size: 300%;</td>
+                   </tr>
+                   
+                    <tr>
+                        <td style=" border: inset 0pt" class="ph"> : hover </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Transición de color</td>
+                        <td style=" border: inset 0pt" class="ty"> etiqueta o variable : hover { <br> background-color : black; <br>}</td>
+                   </tr>
+                   
+                   <tr>
+                        <td rowspan="3" style=" border: inset 0pt" class="ph"> width </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Porcentaje</td>
+                        <td style=" border: inset 0pt" class="ty"> width: 60%;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Pixeles</td>
+                        <td style=" border: inset 0pt" class="ty"> width: 15px;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> El navegador calcula y selecciona un ancho <br> para un elemento especificado </td>
+                        <td style=" border: inset 0pt" class="ty"> width: auto;</td>
+                   </tr>
+                   
+                   <tr>
+                        <td rowspan="3" style=" border: inset 0pt" class="ph"> heigth </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Porcentaje</td>
+                        <td style=" border: inset 0pt" class="ty"> heigth: 60%;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Pixeles</td>
+                        <td style=" border: inset 0pt" class="ty"> heigth: 15px;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> El navegador calcula y selecciona un alto <br> para un elemento especificado </td>
+                        <td style=" border: inset 0pt" class="ty"> heigth: auto;</td>
+                   </tr>
+                   
+                    <tr>
+                        <td rowspan="9" style=" border: inset 0pt" class="ph"> Eslito del borde </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Eliminar borde</td>
+                        <td style=" border: inset 0pt" class="ty"> border: none;</td>
+                   </tr>
+                   
+                    <tr>
+                       <td style=" border: inset 0pt" class="ty"> Punteado</td>
+                        <td style=" border: inset 0pt" class="ty"> border: dotted;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Guiones cortos</td>
+                        <td style=" border: inset 0pt" class="ty"> border: dashed;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Solido</td>
+                        <td style=" border: inset 0pt" class="ty"> border: solid;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Doble</td>
+                        <td style=" border: inset 0pt" class="ty"> border: double;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Apariencia tallada</td>
+                        <td style=" border: inset 0pt" class="ty"> border: groove;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Apariencia extruida</td>
+                        <td style=" border: inset 0pt" class="ty"> border: ridge;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Apariencia de elemento incrustado</td>
+                        <td style=" border: inset 0pt" class="ty"> border: inset;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Apariencia de elemento en relieve</td>
+                        <td style=" border: inset 0pt" class="ty"> border: outset;</td>
+                   </tr>
+                   
+                   <tr>
+                        <td rowspan="2" style=" border: inset 0pt" class="ph"> Grosor del borde </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Pixeles</td>
+                        <td style=" border: inset 0pt" class="ty"> border: 12px;</td>
+                   </tr>
+                   
+                    <tr>
+                       <td style=" border: inset 0pt" class="ty"> Palabra clave</td>
+                        <td style=" border: inset 0pt" class="ty"> border: thin; <br> border: medium; <br> border: thick;</td>
+                   </tr>
+                    
+                     <tr>
+                        <td rowspan="6" style=" border: inset 0pt" class="ph"> Color del borde </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Nombre del color</td>
+                        <td style=" border: inset 0pt" class="ty"> border: Green;</td>
+                   </tr>
+                   
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Código hexadecimal</td>
+                        <td style=" border: inset 0pt" class="ty"> border: #008000;</td>
+                   </tr>
+                   
+                   <tr>
+                      <td style=" border: inset 0pt" class="ty"> Código RGB</td>
+                      <td style=" border: inset 0pt" class="ty"> border: rgb(47, 79, 79);</td> 
+                   </tr>
+                   
+                   <tr>
+                      <td style=" border: inset 0pt" class="ty"> Código RGBA</td>
+                      <td style=" border: inset 0pt" class="ty"> border: rgba(128, 151, 206, 0.5);</td> 
+                   </tr>
+
+                   <tr>
+                      <td style=" border: inset 0pt" class="ty"> Código HSL</td>
+                      <td style=" border: inset 0pt" class="ty"> border: hsl(180, 50%, 50%);</td> 
+                   </tr>
+                   
+                   <tr>
+                      <td style=" border: inset 0pt" class="ty"> Variable</td>
+                      <td style=" border: inset 0pt" class="ty"> border: var(--nombrevariable);</td> 
+                   </tr>
+                             
+                    <tr>
+                        <td rowspan="2" style=" border: inset 0pt" class="ph"> border-radius </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Pixeles</td>
+                        <td style=" border: inset 0pt" class="ty"> border-radius: 12px;</td>
+                   </tr>
+                   
+                    <tr>
+                       <td style=" border: inset 0pt" class="ty"> Porcentaje</td>
+                        <td style=" border: inset 0pt" class="ty"> border-radius: 15%;</td>
+                   </tr>
+                             
+                   <tr>
+                        <td rowspan="3" style=" border: inset 0pt" class="ph"> display </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Generar una caja de elemento de <br>bloque</td>
+                        <td style=" border: inset 0pt" class="ty"> display: block;</td>
+                   </tr>
+                             
+                    <tr>
+                       <td style=" border: inset 0pt" class="ty"> Generar uno o más cuadros de elementos <br>en línea</td>
+                        <td style=" border: inset 0pt" class="ty"> display: inline;</td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Mostrar los elemento como los de bloque <br> y presenta su contenido de acuerdo con el <br> modelo flexbox </td>
+                        <td style=" border: inset 0pt" class="ty"> display: flex;</td>
+                   </tr>
+                             
+                   <tr>
+                        <td rowspan="3" style=" border: inset 0pt" class="ph"> flex </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Absorber cualquier espacio libre adicional <br> en el contenedor y encogerse a su tamaño <br> mínimo para adaptarse al contenedor </td>
+                        <td style=" border: inset 0pt" class="ty"> flex: auto;</td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Encoger a su tamaño mínimo para adaptrse <br> al contenedor, pero no crece para absorber <br> ningún espacio libre adicional </td>
+                        <td style=" border: inset 0pt" class="ty"> flex: initial;</td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Inflexible</td>
+                        <td style=" border: inset 0pt" class="ty"> flex: none;</td>
+                   </tr>
+                             
+                  <tr>
+                        <td rowspan="3" style=" border: inset 0pt" class="ph"> flex-basis </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Automático</td>
+                        <td style=" border: inset 0pt" class="ty"> flex-basis: auto; </td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Porcentaje</td>
+                        <td style=" border: inset 0pt" class="ty"> flex-basis: 40%;</td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Pixeles</td>
+                        <td style=" border: inset 0pt" class="ty"> flex-basis: 50px;</td>
+                   </tr>
+                             
+                   <tr>
+                        <td rowspan="4" style=" border: inset 0pt" class="ph"> flex-direction </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Dirección del eje principal <br> en horizontal </td>
+                        <td style=" border: inset 0pt" class="ty"> flex-direction: row; </td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Dirección del eje principal <br> en horizontal invertido</td>
+                        <td style=" border: inset 0pt" class="ty"> flex-direction: row-reverse;</td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Dirección del eje principal en <br> veritcal</td>
+                        <td style=" border: inset 0pt" class="ty"> flex-direction: column;</td>
+                   </tr>
+                             
+                    <tr>
+                       <td style=" border: inset 0pt" class="ty"> Dirección del eje principal en <br> veritcal invertido</td>
+                        <td style=" border: inset 0pt" class="ty"> flex-direction: column-reverse;</td>
+                   </tr>
+                             
+                    <tr>
+                        <td rowspan="3" style=" border: inset 0pt" class="ph"> flex-wrap </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Establece los ítem en <br> una sola línea (no permite <br> que se desborde del contenedor) </td>
+                        <td style=" border: inset 0pt" class="ty"> flex-wrap: nowrap; </td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Establece los ítems en <br> modo multilínea (permite que <br> se desoborden del contenedor)</td>
+                        <td style=" border: inset 0pt" class="ty"> flex-wrap: wrap;</td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Establece los ítems en <br> modo multilínea, pero en <br> dirección inversa</td>
+                        <td style=" border: inset 0pt" class="ty"> flex-wrap: wrap-reverse;</td>
+                   </tr>
+                             
+                   <tr>
+                        <td rowspan="6" style=" border: inset 0pt" class="ph"> justify-content </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Agrupa los ítem al principio <br> del eje principal </td>
+                        <td style=" border: inset 0pt" class="ty"> justify-content: flex-start; </td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Agrupa los ítems al final <br> del eje principal</td>
+                        <td style=" border: inset 0pt" class="ty"> justify-content: flex-end;</td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Agrupa los ítems al centro <br> del eje principal</td>
+                        <td style=" border: inset 0pt" class="ty"> justify-content: center;</td>
+                   </tr>
+                            
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Distribuye los ítems dejando el <br> máximo espacio para separarlos</td>
+                        <td style=" border: inset 0pt" class="ty"> justify-content: space-between;</td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Distribuye los ítems dejando el <br> mismo espacio para separarlos</td>
+                        <td style=" border: inset 0pt" class="ty"> justify-content: space-around;</td>
+                   </tr>
+                             
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Distribuye los ítems dejando el <br> mispo espacio a izquierda y <br> derecha</td>
+                        <td style=" border: inset 0pt" class="ty"> justify-content: space evenly;</td>
+                   </tr>
+                             
+                    <tr>
+                        <td rowspan="2" style=" border: inset 0pt" class="ph"> box-sizing </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Los elemento abarca todo el<br> ancho de la caja que lo<br> contiene</td>
+                        <td style=" border: inset 0pt" class="ty"> box-sizing: content-box; </td>
+                   </tr>
+                            
+                   <tr>
+                       <td style=" border: inset 0pt" class="ty"> Los elementos toman en cuenta los <br> bordes y rellenos, por lo cual el<br> contenido se encogerá para absorber <br> el ancho adicional </td>
+                        <td style=" border: inset 0pt" class="ty">box-sizing: border-box; </td>
+                   </tr>
+                              
+                </table>
+            </section>
+                    
               <p class="hh">Lista de etiquetas dirigidas a enlaces de hipertextos</p>
              
              <p class="mn"> <b class="dos">⇝</b> Hipertextos </p>
@@ -290,6 +651,28 @@
                     <ul class="tt">
                         <li> <b> href = "  "</b> atributo que permite que pongamos el enlace de lo que queremos conectar.  </li>
                     </ul>
+                    
+            <section>
+                <table class="tabletres" CELLSPACING="5" border="1"> 
+                <tr>
+                        <td class="mm" colspan="3"> PROPIEDADES CSS</td>
+                    </tr>
+
+                    <tr>
+                        <td style=" border: inset 0pt" class="gh"> Propiedad </td>
+                        <td style=" border: inset 0pt" class="ty"> Opciones </td>
+                        <td style=" border: inset 0pt" class="yy"> Ejemplo </td>
+                    </tr>
+                    
+                    <tr>
+                        <td style=" border: inset 0pt" class="ph"> Text-decoration </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Eliminar línea de hipertexto</td>
+                        <td style=" border: inset 0pt" class="ty"> text-decoration: none;</td>
+                   </tr>
+                </table>
+
+            </section>
                     
             <p class="hh">Lista de etiquetas dirigidas a formularios</p>
              
@@ -314,6 +697,14 @@
                     
             <p class="po"> Dentro de href debemos escribir el nombre la <b class="dos">carpeta</b> donde guardamos nuestro <b class="dos">css</b> a utilizar seguido de / y nuestro <b class="dos">css</b>. </p> 
             
+            <p class="hh">Conectar TIPOGRAFÍAS DE INTERNET con CSS</p>
+            
+            <p class="mn"> <b class="dos">⇝</b> ETIQUETA A UTILIZAR </p>
+            
+             <p class="po"> Para conectar una tipografía a css solamente debemos ir a alguna página en Internet que nos permita copiar los <b class="dos"> links </b> para que nos conecte con <b class="dos">css</b> y luego copiar y pegar en nuestro html</p> 
+             
+            <p class="po"> Después de eso debemos copiar el <b class="dos">css</b> que nos aparece debajo de los <b class="dos">links</b>.</p>  
+            
             <p class="hh">Listado de propiedades generales de CSS </p>  
             
             <p class="po"> Su función es definir la estética o la presentación de una página web en general </p> 
@@ -322,8 +713,106 @@
             
                      <ul class="tt">
                         <li> <b>margin:</b> define los margenes externos de un elemento</li>
+                        <li> <b>margin-bottom:</b> establece el área de margen en la parte inferior de un elemento</li>
+                        <li> <b>margin-left:</b> establece el área de margen en el lado izquierdo de un elemento.</li>
+                        <li> <b>margin-rigth:</b> establece el área de margen en el lado derecho de un elemento</li>
+                        <li> <b>margin-top:</b> establece el área de margen en la parte superior de un elemento</li>
                         <li> <b>padding:</b> definen los margenes internos de un elemento </li>
-                    </ul>  
+                        <li> <b>padding-bottom:</b> establece la altura del área de relleno en la parte inferior de un elemento</li>
+                        <li> <b>padding-left:</b> establece el ancho del área de relleno a la izquierda de un elemento</li>
+                        <li> <b>padding-rigth:</b> establece el ancho del área de relleno a la derecha de un elemento</li>
+                        <li> <b>padding-top:</b> establece la altura del área de relleno en la parte superior de un elemento</li>
+                    </ul>
+                    
+            <section>
+                <table class="tablecinco" CELLSPACING="5" border="1"> 
+                    <tr>
+                        <td class="mm" colspan="3"> PROPIEDADES CSS</td>
+                    </tr>
+
+                    <tr>
+                        <td style=" border: inset 0pt" class="gh"> Propiedad </td>
+                        <td style=" border: inset 0pt" class="ty"> Opciones </td>
+                        <td style=" border: inset 0pt" class="yy"> Ejemplo </td>
+                    </tr>
+                    
+                    <tr>
+                        <td rowspan="7" style=" border: inset 0pt" class="ph"> margin </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Automático</td>
+                        <td style=" border: inset 0pt" class="ty"> margin: auto;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Pixeles</td>
+                        <td style=" border: inset 0pt" class="ty"> margin: 30px;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Porcentaje</td>
+                        <td style=" border: inset 0pt" class="ty"> margin: 60%;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Margen inferior</td>
+                        <td style=" border: inset 0pt" class="ty"> margin-bottom: 60%; <br> margin-bottom: 30px; <br> margin-bottom: auto;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Margen izquierdo</td>
+                        <td style=" border: inset 0pt" class="ty"> margin-left: 60%; <br> margin-left: 30px; <br> margin-left: auto;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Margen derecho</td>
+                        <td style=" border: inset 0pt" class="ty"> margin-right: 60%; <br> margin-rigth: 30px; <br> margin-rigth: auto;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Margen superior</td>
+                        <td style=" border: inset 0pt" class="ty"> margin-top: 60%; <br> margin-top: 30px; <br> margin-top: auto;</td>
+                   </tr>
+                   
+                    <tr>
+                        <td rowspan="7" style=" border: inset 0pt" class="ph"> padding </td>
+                        
+                        <td style=" border: inset 0pt" class="ty"> Automático</td>
+                        <td style=" border: inset 0pt" class="ty"> padding: auto;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Pixeles</td>
+                        <td style=" border: inset 0pt" class="ty"> paddind: 30px;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Porcentaje</td>
+                        <td style=" border: inset 0pt" class="ty"> padding: 60%;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Altura inferior</td>
+                        <td style=" border: inset 0pt" class="ty"> padding-bottom: 60%; <br> padding-bottom: 30px; <br> padding-bottom: auto;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Ancho izquierdo</td>
+                        <td style=" border: inset 0pt" class="ty"> padding-left: 60%; <br> padding-left: 30px; <br> padding-left: auto;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Ancho derecho</td>
+                        <td style=" border: inset 0pt" class="ty"> padding-right: 60%; <br> padding-rigth: 30px; <br> padding-rigth: auto;</td>
+                   </tr>
+                   
+                   <tr> 
+                        <td style=" border: inset 0pt" class="ty"> Altura superior</td>
+                        <td style=" border: inset 0pt" class="ty"> padding-top: 60%; <br> padding-top: 30px; <br> padding-top: auto;</td>
+                   </tr>
+                   
+                </table>
+
+            </section>  
                     
             <p class="hh">Listado de propiedades dirigidas al texto </p>  
             
@@ -336,6 +825,10 @@
                         <li> <b>font-size:</b> define el tamaño del texto </li>
                         <li> <b>font-family:</b> define la tipografía del texto </li>
                         <li> <b>text-aling:</b> define la posición del texto </li>
+                        <li> <b>text-decoration:</b> aplica docoración al texto </li>
+                        <li> <b>list-style-tipe:</b> aplica estilo o remueve viñetas </li>
+                        <li> <b>list-style-position:</b> define la posición de las viñetas </li>
+                        
                     </ul>        
         
             <p class="hh">Listado de propiedades dirigidas a cajas </p>  
@@ -345,11 +838,21 @@
             <p class="jo"> CAJAS </p>
             
                     <ul class="tt">
-                            <li> <B>background:</B> define el color de relleno de un elemento</li>
+                            <li> <B>background-color:</B> define el color de relleno de un elemento</li>
+                            <li> <b>background-image:</b> establece una o más imágenes de fondo en un elemento</li> 
+                            <li> <b>background-size:</b> establece el tamaño de la imagen de fondo del elemento. La imagen se puede dejar en su tamaño natural, estirar o restringir para que se ajuste al espacio disponible</li> 
+                            <li> <B>: hover</B> se utilizan cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no necesariamente lo activan. Generalmente se activa cuando el usuario se desplaza sobre un elemento con el cursor </li>
                             <li> <b>width:</b> define el ancho de un elemento </li>
                             <li> <b>heigth:</b> define el alto de un elemento </li> 
-                            <li> <b>border</b>: define bordes a una imagen, color y grosor</li> 
-                            <li> <b>border-radius:</b> define el dobladillo del borde </li>   
+                            <li> <b>border</b>: define bordes a una caja con estilo, color y grosor</li> 
+                            <li> <b>border-radius:</b> define el dobladillo del borde </li>
+                            <li> <b>display:</b> especifíca si un elemento es tratado como block o inline y el diseño utilizado por sus hijos </li>
+                            <li> <b>flex:</b> establece cómo un elemento flexible crecerá o se reducirá para ajustarse al espacio disponible en su contenedor flexible </li>  
+                            <li> <b>flex-direction:</b> define la dirección principal, es decir, la dirección en la que se colocan los elementos flexibles en los contenedores </li> 
+                            <li> <b>flex-basis:</b> establece el tamaño principal inicial de un elemento flexible </li> 
+                            <li> <b>flex-wrap:</b> establece si los elementos flexibles se fuerzan en una línea o se pueden ajustar en varias líneas. Si se permite el ajuste, establece la dirección en la que se apilan las líneas </li> 
+                            <li> <b>justify-content:</b> define cómo el navegador distribuye el espacio entre y alrededor de los elementos de contenido a lo largo </li> 
+                            <li> <b>box-sizing:</b> establece cómo se calcula el ancho y alto total de un elemento </li>   
                     </ul>            
 
                          

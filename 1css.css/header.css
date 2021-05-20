@@ -8,6 +8,7 @@
 header{
     width: 100%;
     height: 75px;
+    margin-bottom: 0px;
     padding: 10px 50px 10px 50px;
     box-sizing: border-box;
     
@@ -20,18 +21,30 @@ header{
     
 }
 
+.hl{
+     width: 50px;
+    height: 50px;
+    background-image:url(../img/hl.PNG);
+    background-size: cover;
+}
+
 .logo{
     color: #fff;
+    margin: auto;
+    padding-right: 910px;
+    padding-bottom: 8px;
 }
 
 .nav{
     
     list-style: none;
     width: 200px;
+    margin: auto;
+    padding-bottom: 10px;
     
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:flex-start;
 }
 
 .nav li{
