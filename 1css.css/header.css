@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+
+header{
+    width: 100%;
+    height: 75px;
+    margin-bottom: 0px;
+    padding: 10px 50px 10px 50px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+   background-color: #6b6b6d;
+   background-image: linear-gradient(62deg, #6b6b6d 0%, #c6bcc7 50%, #f0f0f0 100%);
+    
+}
+
+.hl{
+     width: 50px;
+    height: 50px;
+    background-image:url(../img/hl.PNG);
+    background-size: cover;
+}
+
+.logo{
+    color: #fff;
+    margin: auto;
+    padding-right: 910px;
+    padding-bottom: 8px;
+}
+
+.nav{
+    
+    list-style: none;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.nav li{
+    color: #fff;
+}
+
+.uno{
+    display: block;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    color: #fff;
+    padding: 7px 2px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+    text-decoration: none;
+    background-color: #6b6b6d;
+    background-image: linear-gradient(62deg, #6b6b6d 0%, #c6bcc7 50%, #f0f0f0 100%);
+
+    transition: 0.5s;
+}
+
+.uno:hover{
+    width: 120px;
+    transition: 0.5s;
+    
+    background-image: linear-gradient(180deg, #c8d9ff 0, #9598a0 50%, #615c4a 100%);
+}
