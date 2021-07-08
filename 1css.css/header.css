@@ -1,19 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Noto Sans HK', sans-serif;
-}
-
-
 header{
-    width: 100%;
-    height: 75px;
-    margin-bottom: 0px;
-    padding: 10px 50px 10px 50px;
+    min-width: 100%;
+    min-height: 7.5rem;
+    margin-bottom: 0rem;
+    padding: 2rem 5rem;
     box-sizing: border-box;
     
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     
    background-color: #6b6b6d;
@@ -21,45 +13,37 @@ header{
     
 }
 
-.hl{
-     width: 50px;
-    height: 50px;
-    background-image:url(../img/hl.PNG);
-    background-size: cover;
-}
-
-.logo{
-    color: #fff;
-    margin: auto;
-    padding-right: 910px;
-    padding-bottom: 8px;
+.nombre{
+    color: var(--color5);
+    font-size: var(--letra4);
+    padding-bottom: 0.8rem;
 }
 
 .nav{
     
     list-style: none;
-    width: 200px;
-    margin: auto;
-    padding-bottom: 10px;
+    min-width: 20rem;
+    padding-bottom: 1rem;
     
     display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
+    justify-content:flex-end;
 }
 
 .nav li{
-    color: #fff;
+    color: var(--color5);
 }
 
 .uno{
     display: block;
-    width: 100px;
-    margin: 5px;
+    min-width: 8rem;
+    margin: 0.5rem;
     text-align: center;
-    color: #fff;
-    padding: 7px 2px;
-    border-radius: 5px;
-    margin-top: 10px;
+    
+    color: var(--color5);
+    font-size: var(--letra3);
+    padding: 0.7rem 0.2rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
     
     text-decoration: none;
     background-color: #6b6b6d;
@@ -69,7 +53,8 @@ header{
 }
 
 .uno:hover{
-    width: 120px;
+    min-width: 11rem;
+    border-radius: 1.5rem;
     transition: 0.5s;
     
     background-image: linear-gradient(180deg, #c8d9ff 0, #9598a0 50%, #615c4a 100%);

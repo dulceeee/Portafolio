@@ -1,27 +1,30 @@
 .banner_index{
-    width: 100%;
-    height: 550px;
-    padding-top: 350px;
+    min-width: 100%;
+    min-height: 100rem;
+    padding-top: 35rem;
     background-image: url(../img/banner.jpg);
     background-size: cover;
 }
 
 .leyenda{
     text-align: center;
-    font-size: 35px;
-    color: #fff;
+    font-size: 3.5rem;
+    color: var(--color5);
 }
 
 .btn_banner{
     display: block;
-    width: 100px;
+    width: 10rem;
     margin: auto;
+    
     text-align: center;
-    color: #fff;
+    color: var(--color5);
     text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 15px;
+    font-size: var(--letra3);
+    
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
     
     background-image: linear-gradient(180deg, #c8d9ff 0, #9598a0 50%, #615c4a 100%);
 
@@ -31,7 +34,7 @@
 }
 
 .btn_banner:hover{
-    width: 150px;
+    width: 15rem;
     transition: 0.3s;
    
     background-color: #6b6b6d;

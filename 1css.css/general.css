@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+html {
+    font-size: 62.5%; /* 10px */
+}
+
+/* Paleta de colores */
+
+:root{
+    --color1: #394007;
+    --color2: #88898C;
+    --color3: #7A8C3A;
+    --color4: #000000;
+    --color5: #fff;
+}
+
+/* Size Tipografía */
+
+:root{
+    --letra1: 2.5rem; /* 25px */
+    --letra2: 5rem; /* 50px */
+    --letra3: 1.7rem; /* 17px */
+    --letra4: 3rem; /* 30px */
+    --letra5: 2rem; /* 20px */
+    --letra6: 2.7rem; /* 27px */
+}
