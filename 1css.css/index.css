@@ -1,5 +1,5 @@
 .banner_index{
-    min-width: 100%;
+    width: 100%;
     min-height: 100rem;
     padding-top: 35rem;
     background-image: url(../img/banner.jpg);
