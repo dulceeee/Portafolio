@@ -8,4 +8,5 @@
 
   <IMG SRC="https://lh3.googleusercontent.com/6nCFn78IvbCd72fgsRNNamXb9vqWXBGC2Xtl0v_8wejHNImuAM_67KXWcI4pQUjwYWzoXhKL28arevDD8Q4ti0IyNUKZ9dzL_vu2OfHK8MMaRXbWU5G4H9sjBQcWbRLPRiVdgF4ZmkU98U7S95ibvv4lFtaXaDXzIx4wQn0bQm2UgW8eOOYaJMFNDhiM6bD0lnZUAMLBIghd5CzWdJOZSzIBAQKQDOkPHQ15GGBxpWaOq_OgD9AWVBR54K_kMJkvPE50kbcOogOI_1lwGRIG427YNDERJFiqgXXuvDY9XalPmU3p5GecoZOm6kBAWBrtBGnp2COk5N-13H25JXrLK_NoowxBSH8oFzZK6_B31EiaKTDnk0c7I-EDHk4-IeZbVx3JAARQZa9VWt7TwVWxcTLpM0ugONNOmAaR7Jf--QBfOLG-aWg0Q4jr7zwJvYXwtOFYNvfmVdCXaUn8T4aAgY5psKpf64_oozM9oSKPPt-oHll3kpxO4C1dVXYmBcLV0GJjSz52v-C3fr-74byLYpVVL1t9QbggIs1vkGt5Ehc0uVxgetxGesz3xASb19RkAzazQkWJ7d3EXLdxkJCxB1V2ZW4kcVR0OiUiktMCdQsZey0HA6t7EBjNOopt-GBP5_PrupnyJcpXm1eJnRaGY33080oa3JO-xfc9Zhk9wiMI2kIawxNHGHFTtf4r3pPazrzXGpWjw9pYWlGCs4M=w1346-h757-no?authuser=0" ALIGN=MIDDLE>
 
-    https://dulceeee.github.io/Portafolio/glosario.html
+    * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
+    <a href="https://dulceeee.github.io/Portafolio/glosario.html"> Página GitHub </a>
