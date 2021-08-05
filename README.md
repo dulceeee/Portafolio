@@ -35,6 +35,12 @@
 |  Aplicar correctamente las etiquetas y propiedades en mis proyectos a realizar | Trabajara de manera ordenada mi código y sin errores  | Practicar las programaciones aprendidas de la mejor manera posible  |
 
 
-
 # DOCUMENTACIÓN
 https://dulceeee.github.io/Portafolio/
+
+
+# OBJETIVOS A FUTURO
+
+| ORGANIZACIÓN 📆 | INVESTIGACIÓN 💻 | PROPÓSITO 📢 |
+| :------------: | :------------: | :------------: |
+| Elaborar un horario, el cual seguiré estrictamente, para poder cumplir con las fechas y horarios establecidos para la entrega de proyectos  | Consultar fuentes confiables para saber la utilización que se les puede dar a las distintas etiquetas y propidades CSS  | Realizar un mejor portafolio, en el cual se mejore el diseño, la vista y la interacción que verá y utilizarán los usuarios  |
