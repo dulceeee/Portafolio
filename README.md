@@ -26,6 +26,7 @@
 	+ Conexiones 
 	+ Responsive Design
 	+ Tecnología BexBox
+7. Objetivo a Futuro
 
 
 # OBJETIVOS
