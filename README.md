@@ -21,11 +21,11 @@
 	+ Responsive Design
 	+ Tecnología BexBox
 6. Glosario
-	6.1 Etiquetas HTML
-	6.2 Propiedades CSS
-	6.3 Conexiones 
-	6.4 Responsive Design
-	6.5 Tecnología BexBox
+	+ Etiquetas HTML
+	+ Propiedades CSS
+	+ Conexiones 
+	+ Responsive Design
+	+ Tecnología BexBox
 
 
 # OBJETIVOS
