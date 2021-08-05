@@ -4,7 +4,7 @@
 
 # ANTEPORTADA
 - **Colegio:** Santa Catalina Labouré
-- **Nombre: **Dulce Madaí Antonio Rodríguez
+- **Nombre:** Dulce Madaí Antonio Rodríguez
 - **Carrera:** IV Bachillerato en Ciencias y Letras con Orientación en Diseño Gráfico
 - **Docente:** Jossue Emmanuel Fuentes
 
