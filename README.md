@@ -29,6 +29,9 @@
 
 
 # OBJETIVOS
+|  SABER  | HACER  | SER Y ESTAR  |
+| :------------: | :------------: | :------------: |
+|  Aplicar correctamente las etiquetas y propiedades en mis proyectos a realizar | Trabajara de manera ordenada mi código y sin errores  | Practicar las programaciones aprendidas de la mejor manera posible  |
 
 
 https://dulceeee.github.io/Portafolio/
