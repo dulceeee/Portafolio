@@ -16,11 +16,10 @@
 3. Índice
 4. Objetivos
 5. Home Page
-5.1. Banner
-	5.1 Banner
-	5.2 Botónes
-	5.3 Responsive Design
-	5.4 Tecnología BexBox
+	+ Banner
+	+ Botónes
+	+ Responsive Design
+	+ Tecnología BexBox
 6. Glosario
 	6.1 Etiquetas HTML
 	6.2 Propiedades CSS
